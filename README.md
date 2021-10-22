@@ -30,20 +30,12 @@ The notebook [`tktktktk.ipynb`](notebooks/tktktktk.ipynb) performs the following
 
 ##### Part 1: TKTK
 
-- We cloned original document holding all businesses that had "Deli" or "Bodega" in their name. We then split License Expiration Data into month/date/year columns. We also split License Creation Date into month/date/year columns.
-
-Once it was filtered, we copied the data to a new spreadsheet and sorted it by expiration year, in reverse chronological order. Then, we deduped by business name to keep the latest instance, which should settle the question of whether something is still open or not.
-
-After that, we hid "License Type" because they are all "Business", "Address State" which are all "NY", Borough Code, and Detail. 
+- We cloned original document holding all businesses that had "Deli" or "Bodega" in their name. We then split License Expiration Data into month/date/year columns. We also split License Creation Date into month/date/year columns. Once it was filtered, we copied the data to a new spreadsheet and sorted it by expiration year, in reverse chronological order. Then, we deduped by business name to keep the latest instance, which should settle the question of whether something is still open or not. After that, we hid "License Type" because they are all "Business", "Address State" which are all "NY", Borough Code, and Detail. 
 
 
 ##### Part 2: TKTK
 
-- In our Pivot Table, we filtered columns by zip code, rows by expiration year and separated the license status by active or inactive. Values are counts of each instance of inactive or active status. 
-
-We wanted to see which zip codes had more than a 50% increase in inactive licenses during the pandemic. This was done with a percent change formula between 2018-2019 and 2020-2021.
-
-An IF statement told us which zip code fit the criteria with the label of “1”.
+- In our Pivot Table, we filtered columns by zip code, rows by expiration year and separated the license status by active or inactive. Values are counts of each instance of inactive or active status. We wanted to see which zip codes had more than a 50% increase in inactive licenses during the pandemic. This was done with a percent change formula between 2018-2019 and 2020-2021. An IF statement told us which zip code fit the criteria with the label of “1”.
 
 
 ### TKTK About Foreclosure Data
