@@ -1,20 +1,28 @@
 # Gentrification Data Set — 01/2018 to 12/2023
 
-This repository contains data, analytic code, and findings that were collected by [The New York City Consumer and Worker Protection](https://data.cityofnewyork.us/Business/Legally-Operating-Businesses/w7w3-xahh) and is available via Open Data which is updates every day. Please filter this dataset using the methodology below, which contains important context and details, before proceeding.
+This repository contains data, analytic code, and findings that were collected by [The New York City Consumer and Worker Protection](https://data.cityofnewyork.us/Business/Legally-Operating-Businesses/w7w3-xahh) and is available via Open Data which is updated every day. Please filter this dataset using the methodology below, which contains important context and details, before proceeding.
+
+TKTKTK –– About Foreclosure Data
 
 ## Data
 
-This analysis uses TKTKTK spreadsheets.
+This analysis uses active and inactive licensing data.
 
 The spreadsheets come from the following sources:
 
 - Name of source:
-  - `name_of_spreadsheet.xlsx`: Raw data of TKTKTK
+  - `DCA_Legally_Operating_Businesses_08092021.xlsx`: Raw data of active and inactive licenses
 
 Each of the spreadsheets contain, among others, the following columns relevant to the analysis:
 
-- `tktktk` — TK description
-- `tktktk` — TK description
+- `Expiration Year` — TK description
+- `License Status` — TK description
+- `Business Name` — TK description
+- `Business Address` — TK description
+- `Longitude` — TK description
+- `Latitude` — TK description
+
+TKTKTK –– About Foreclosure Data
 
 ## Methodology
 
@@ -35,10 +43,16 @@ We wanted to see which zip codes had more than a 50% increase in inactive licens
 An IF statement told us which zip code fit the criteria with the label of “1”.
 
 
-
 ##### Part 2: TKTK
 
 - Description of what you did with the data
+
+
+### TKTK About Foreclosure Data
+
+##### Part 1: TKTK
+
+##### Part 2: TKTK
 
 
 ## Outputs
