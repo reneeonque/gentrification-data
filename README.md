@@ -1,6 +1,6 @@
 # Gentrification Data Set — 01/2018 to 12/2023
 
-This repository contains data, analytic code, and findings that were collected by [The New York City Consumer and Worker Protection](https://www.google.com) and is available via Open Daya published Month Date, Year. Please read that article, which contains important context and details, before proceeding.
+This repository contains data, analytic code, and findings that were collected by [The New York City Consumer and Worker Protection](https://www.google.com) and is available via Open Data published Month Date, Year. Please read that article, which contains important context and details, before proceeding.
 
 ## Data
 
