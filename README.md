@@ -43,7 +43,7 @@ TKTKTK –– About Foreclosure Data
 ##### Part 2: TKTK
 
 
-## Outputs
+## Findings
 
 The notebooks output this spreadsheet which contains TKTK: [`output/tktktk.csv`](output/tktktk.csv).
 
