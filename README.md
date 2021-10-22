@@ -1,3 +1,2 @@
 # gentrification-data
-<br />
-This is an example.
+<br />This is an example.
