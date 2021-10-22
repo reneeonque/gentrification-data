@@ -1,6 +1,6 @@
 # Gentrification Data Set — 01/2018 to 12/2023
 
-This repository contains data, analytic code, and findings that support portions of the article, “[The New York City Consumer and Worker Protection](https://www.google.com),” published Month Date, Year. Please read that article, which contains important context and details, before proceeding.
+This repository contains data, analytic code, and findings that were collected by [The New York City Consumer and Worker Protection](https://www.google.com) and is available via Open Daya published Month Date, Year. Please read that article, which contains important context and details, before proceeding.
 
 ## Data
 
@@ -22,7 +22,18 @@ The notebook [`tktktktk.ipynb`](notebooks/tktktktk.ipynb) performs the following
 
 ##### Part 1: TKTK
 
-- Description of what you did with the data
+- We cloned original document holding all businesses that had "Deli" or "Bodega" in their name. We then split License Expiration Data into month/date/year columns. We also split License Creation Date into month/date/year columns.
+
+Once it was filtered, we copied the data to a new spreadsheet and sorted it by expiration year, in reverse chronological order. Then, we deduped by business name to keep the latest instance, which should settle the question of whether something is still open or not.
+
+After that, we hid License Type (They are all business), Address State (All NY), Borough Code, Detail
+
+Pivot Table— Columns by Zip Code, Rows by Expiration Year, and Whether the License is Active or Inactive. Values are counts of each instance. 
+
+We wanted to see which zip codes had more than a 50% increase in inactive licenses during the pandemic. This was done with a percent change formula between 2018-2019 and 2020-2021.
+
+An IF statement told us which zip code fit the criteria with the label of “1”.
+
 
 
 ##### Part 2: TKTK
