@@ -72,4 +72,4 @@ All code in this repository is available under the [MIT License](https://opensou
 
 ## Feedback / Questions?
 
-Contact YOUR NAME HERE at your.name@email.com.
+Contact Zachary Smith at zachary.smith90@journalism.cuny.edu, Juliet Jeske at juliet.jeske050@journalism.cuny.edu, Renée Onque at renee.onque91@journalism.cuny.edu, or Gabriel Poblete at gabriel.polete35@journalism.cuny.edu.
