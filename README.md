@@ -6,7 +6,7 @@ TKTKTK –– About Foreclosure Data
 
 ## Data
 
-This `raw data` for this analysis uses active and inactive licensing data, as well as pre-foreclosure and foreclosure records, from 2018 to 2021.
+This [`raw data`](output/tktktk.csv) for this analysis uses active and inactive licensing data, as well as pre-foreclosure and foreclosure records, from 2018 to 2021.
 
 The spreadsheets come from the following sources:
 
