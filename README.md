@@ -38,9 +38,9 @@ TKTKTK –– About Foreclosure Data
 
 ### TKTK About Foreclosure Data
 
-##### Part 1: TKTK
+##### Part 1: Cleaning Data
 
-##### Part 2: TKTK
+##### Part 2: Filtering Data
 
 
 ## Findings
