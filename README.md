@@ -15,12 +15,12 @@ The spreadsheets come from the following sources:
 
 Each of the spreadsheets contain, among others, the following columns relevant to the analysis:
 
-- `Expiration Year` — TK description
-- `License Status` — TK description
-- `Business Name` — TK description
-- `Business Address` — TK description
-- `Longitude` — TK description
-- `Latitude` — TK description
+- `Expiration Year` — This provides the year in which the license was declared active or inactive.
+- `License Status` — This lets viewers know if the license status is inactive or active.
+- `Business Name` — This field is includes the business name.
+- `Business Address` — This column lists the businesses' addresses.
+- `Longitude` — This field has the longitude of each business.
+- `Latitude` — This lists the latitude of each business.
 
 TKTKTK –– About Foreclosure Data
 
