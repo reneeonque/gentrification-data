@@ -2,7 +2,7 @@
 
 This repository contains data, analytic code, and findings that were collected by [The New York City Consumer and Worker Protection](https://data.cityofnewyork.us/Business/Legally-Operating-Businesses/w7w3-xahh) and is available via Open Data which is updated every day. Please filter this dataset using the methodology below, which contains important context and details, before proceeding.
 
-TKTKTK –– About Foreclosure Data
+The second repository contains data obtained from [Property Shark](https://www.propertyshark.com/mason/), which requires membership in order to utilize. The data consists of foreclosure and pre-foreclosure data stretching back to October 2018.
 
 ## Data
 
@@ -22,15 +22,16 @@ The raw data contains, among others, the following columns relevant to the analy
 - `Longitude` — This field has the longitude of each business's address.
 - `Latitude` — This lists the latitude of each business's address.
 
-TKTKTK –– About Foreclosure Data
-
 - Property Shark:
   - `Raw_Property Shark - Pre-Foreclosure STORES.xlsx` and `Raw_Property Shark - Foreclosure STORES.xlsx`: Raw data of Pre-Foreclosures and Foreclosures
 
 This [`raw data`](https://github.com/reneeonque/gentrification-data/tree/main/data) for this analysis contains, among others, the following columns relevant to the analysis:
 
-- `tktktk` — TK description
-- `tktktk` — TK description
+- `Address` — This column lists the businesses' addresses.
+- `Zip code` — This is a listing of the zip codes.
+- `Creditor` — This lists the creditor of each business.
+- `Neighborhood` — This column includes the neighborhood in the city in which the business is located.
+- `Effective date` — This lists the date of foreclosure or pre-foreclosure.
 
 ## Methodology
 
@@ -52,11 +53,38 @@ This [`raw data`](https://github.com/reneeonque/gentrification-data/tree/main/da
 
 ##### Part 1: Cleaning Data
 
-- 
+- Property Shark has four categories in a pull-down menu for foreclosures. Those categories are: 
+  - New York City Foreclosures
+  - New York City Pre-Foreclosures
+  - New York City Auction Results
+  - New York City Bank Owned (REO) 
 
-##### Part 2: Filtering Data
+- Property Shark also includes a number of different types of buildings.  For this project, we searched for the category of ‘Store Buildings’ which is at the bottom of a blue menu on the left-hand side of the screen.
+- Then after searching for Store Buildings, we had to limit our search to one of the four foreclosure categories listed above. We started with ‘New York City Foreclosures’. For foreclosures, there is a gap in information because of Covid-19.  From May of 2020 to September 2021 there are no foreclosures due to the COVID-19 crisis. The error message read as “Due to the ongoing health emergency, foreclosure auctions have been temporarily suspended.”
+- We were able to get two foreclosures for this month, October 2021 and from April 2020 bank through October 2018.  To find each month, there is a pull down menu at the top of the blue menu on the left hand side of the page. The months are listed under the topic - Show.  
+- To get the data for each month, you have to select Export to Excel after selecting for the month, type of building and category.  Each month had only a handful of buildings, so we copied each small Excel spreadsheet for each month and compiled one large spreadsheet on google sheets of the entire data set.  
+- We then repeated this process for the next category - New York City Pre-Foreclosures.  We selected for Store Building again.  There is a limit of 100 items per Excel spreadsheet downloads on Property Shark so since Juliet was using an account paid for by the Craig Newmark School of Journalism at CUNY, she had to download each month separately. Spreadsheets that contain 100 items or more are sent to a user’s email address.  In this case the email did not match her own, so she downloaded each month separately.  he repeated the same process. 
+- We copied the information from each small sheet and pasted it along with the other months on one single Google Sheet. We were able to get pre-foreclosures from Sept. 2021 to Oct. 2018. We then repeated this exact process for the final two categories: New York City Auction Results and New York City Bank Owned (REO). Our search yielded no results. 
+- When we were finished, we had two sets of raw data. The two lists were not formatted in the same way, so combining them would be difficult. All told these two spreadsheets were really made up of about 50 small Excel spreadsheets that were copied and pasted together by category.  
 
--
+##### Part 2: Cleaning Data
+
+- The lists from Property Shark are labeled with multiple columns that might be useful for a deeper analysis, but for the purposes of counting how many foreclosures occurred from year to year, the columns weren’t needed.  
+- After making copies of both spreadsheets the only information that was saved was:
+  - Address 
+  - Zip Code 
+  - Year 
+  - Neighborhood 
+- At this point, it was much easier to combine both the Pre-foreclosure and Foreclosure buildings. 
+
+##### Part 3: Filtering Data
+
+- Using pivot tables, the datasets were split into zip codes and then broken up by year, with the number of each time the zip codes appeared as a foreclosure per year.  We were looking for any increase of more than 50% in the amount of foreclosures per zip code between 2018-2019 then 2019-2020 and 2020-2021.  
+- The pivot table was then copied into separate sheets.  The first one was 2018-2019.  The amount of foreclosures for 2019 was sorted highest to lowest.  Then, when compared against the number of foreclosures for 2018, it was easy to see when there was a 50% or more increase.  For instance, for zip code 11233 from 2018, there were 2 buildings and in 2019 there were 10. Any zip code that met the criteria of an increase of more than 50% was given a checkmark in a third column. After the entire list was compared and marked this way, the list was sorted for the column with X and the results were copied and pasted to a new clean spreadsheet that is much easier to read than one buried in a pile of pivot tables. 
+- This was repeated again for 2019-2020 and again 2020-2021. The results of this search are in the spreadsheet labeled Property Shark 50% change - Pre-foreclosure and Foreclosure combined.
+- The spreadsheet that shows all of the pivot tables and work involved is labeled Working copy for analysis - Pre-foreclosure/Foreclosure
+- For now this data set is a secondary data set for this project. We agreed as a group that since so much foreclosure data was not available for 2020 and 2021 due to COVID-19 that we really couldn’t get the best idea of what was happening in those neighborhoods. It did give us an idea of what was happening from 2018-2019 and then again in 2019-2020. We did learn about some areas though that might be going through some changes due to what might be gentrification. 
+
 
 ## Findings
 
