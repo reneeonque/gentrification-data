@@ -27,7 +27,7 @@ TKTKTK –– About Foreclosure Data
 - Property Shark:
   - `Raw_Property Shark - Pre-Foreclosure STORES.xlsx` and `Raw_Property Shark - Foreclosure STORES.xlsx`: Raw data of Pre-Foreclosures and Foreclosures
 
-This [`raw data`](output/tktktk.csv) for this analysis contains, among others, the following columns relevant to the analysis:
+This [`raw data`](https://github.com/reneeonque/gentrification-data/tree/main/data) for this analysis contains, among others, the following columns relevant to the analysis:
 
 - `tktktk` — TK description
 - `tktktk` — TK description
