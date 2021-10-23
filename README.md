@@ -67,7 +67,13 @@ The output the filtered spreadsheet which contains an analyzed tab, a deduped ta
 - The highest counts of inactive deli’s and bodegas are 10452 (30), 11216 (30), 11221 (30), 11226 (31), 11208 (32), 11212 (32), 10458 (33), 11233 (33), 11385 (37), 10456 (38), and 11207 (55).
 - These equate to Highbridge, Bedford-Stuyvesant, Bushwick, Flatbush, East New York, Brownsville, Belmont, Ocean Hill, Ridgewood, and Melrose.
 - These are the neighborhoods that have experienced more inactivity during the pandemic (2020-2021 to date): 10033, 10453, 10469, 11214, 11219, 11220, 11235, 11374 (all inactive licenses happened during the pandemic), 11417, 11422, and 11423
-  - None of the zip codes listed above overlap with zip codes that have the most inactive licenses in general, and many ranges from just 5-10 inactive licenses, which some of the top zip codes experience every year. 
+  - None of the zip codes listed above overlap with zip codes that have the most inactive licenses in general, and many range from just 5-10 inactive licenses, which some of the top zip codes experience every year. 
+- Neighborhoods that have experienced more than a 50% increase in inactive licenses during the pandemic are 10021, 11102, 11214, 11219, 11234, 11355, 11358, 11364, 11374, 11417, 11422, 11423, 11693, and 11694.
+- We recommend using neighborhoods with more than 5 closures during the pandemic, which focuses on zip codes 11214, 11219, and 11234. These are the neighborhoods of Bath Beach and Bensonhurst, Borough Park, and the area of Marine Park, Flatlands, Georgetown, and Bergen Beach. 
+- There are five addresses that became inactive under one name and active under another name. This happened four times for these addresses: 10453, 11214, 11216, 10010, and 10040 which are the neighborhoods of Morris Heights, Bath Beach and Bensonhurst, Bed-Stuy and Crown Heights, Flatiron, and Fort George.
+- The address in Bath Beach and Bensonhurst correlates with the 50% increase in inactive licenses during the pandemic. The address is 1919 CROPSEY AVE, Brooklyn, NY 11214.
+- The Bed-Stuy and Crown Heights address correlates with the zip codes that have the highest count of inactive licenses over the past four years. This address is: 496 NOSTRAND AVE Brooklyn, NY 11216.
+- We plan to focus on one of these communities.
 
 #### Foreclosure Data
 
