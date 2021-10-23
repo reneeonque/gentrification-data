@@ -64,6 +64,11 @@ This spreadsheet contains, among others, the following columns relevant to the a
 
 The output the filtered spreadsheet which contains an analyzed tab, a deduped tab, a tab that filters the license expirations by year, the pivot table mentioned in the methodology, a filter that lists addresses that appeared multiple times in the data with a new owner, a tab that lists the addresses with the most ownership changes: [`Filtered_DCA_Legally_Operating_Businesses_08092021.xlsx`](output/tktktk.csv).
 
+- The highest counts of inactive deli’s and bodegas are 10452 (30), 11216 (30), 11221 (30), 11226 (31), 11208 (32), 11212 (32), 10458 (33), 11233 (33), 11385 (37), 10456 (38), and 11207 (55).
+- These equate to Highbridge, Bedford-Stuyvesant, Bushwick, Flatbush, East New York, Brownsville, Belmont, Ocean Hill, Ridgewood, and Melrose.
+- These are the neighborhoods that have experienced more inactivity during the pandemic (2020-2021 to date): 10033, 10453, 10469, 11214, 11219, 11220, 11235, 11374 (all inactive licenses happened during the pandemic), 11417, 11422, and 11423
+  - None of the zip codes listed above overlap with zip codes that have the most inactive licenses in general, and many ranges from just 5-10 inactive licenses, which some of the top zip codes experience every year. 
+
 #### Foreclosure Data
 
 ## Licensing
