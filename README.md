@@ -6,7 +6,7 @@ TKTKTK –– About Foreclosure Data
 
 ## Data
 
-This analysis uses active and inactive licensing data, as well as pre-foreclosure and foreclosure records, from 2018 to 2021.
+This `raw data` for this analysis uses active and inactive licensing data, as well as pre-foreclosure and foreclosure records, from 2018 to 2021.
 
 The spreadsheets come from the following sources:
 
@@ -25,9 +25,9 @@ The raw data contains, among others, the following columns relevant to the analy
 TKTKTK –– About Foreclosure Data
 
 - Property Shark:
-  - `Property Shark - Foreclosure STORES.xlsx`: Raw data of Pre-Foreclosures and Foreclosures
+  - `Raw_Property Shark - Pre-Foreclosure STORES.xlsx` and `Raw_Property Shark - Foreclosure STORES.xlsx`: Raw data of Pre-Foreclosures and Foreclosures
 
-This spreadsheet contains, among others, the following columns relevant to the analysis:
+This [`raw data`](output/tktktk.csv) for this analysis contains, among others, the following columns relevant to the analysis:
 
 - `tktktk` — TK description
 - `tktktk` — TK description
@@ -75,6 +75,8 @@ The output of the filtered spreadsheet which contains an analyzed tab, a deduped
 - We plan to focus on one of these communities.
 
 #### Foreclosure Data
+
+The [`output data`](output/tktktk.csv) of the filtered spreadsheet which contains TKTKTKTKTK: `Property Shark - Pre-Foreclosure STORES.xlsx` and `Property Shark - Foreclosure STORES.xlsx`.
 
 ## Licensing
 
