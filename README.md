@@ -1,6 +1,6 @@
 # Licensing and property shark data analysis — 01/2018 to 12/2023
 
-This repository contains data, analytic code, and findings for a story about gentrification. It contains important context and details for this story.
+This repository contains data, analytic code, and findings for a story about gentrification. Please read the story before proceeding to the analyses because it contains important contextualizing information.
 
 
 ## Data
@@ -41,12 +41,12 @@ The licensing data analysis can be found in the  Excel spreadsheet `output/Filte
 
 ##### Part 1: Cleaning data to remove duplicate entries of the same business
 
-- We first imported the licensing datam which contains all businesses that had "Deli" or "Bodega" in their name, into a sheet called `Raw.` We then duplicated the original data into a sheet called `Split Date Column` in which we split `License Expiration Date` column into month/date/year columns. We also split `License Creation Date` into month/date/year columns. This allows us to look into license expirations and license creations by year later on.
+- We first imported the licensing data, which contains all businesses that had "Deli" or "Bodega" in their name, into a sheet called `Raw.` We then duplicated the original data into a sheet called `Split Date Column` in which we split `License Expiration Date` column into month/date/year columns. We also split `License Creation Date` into month/date/year columns. This allows us to look into license expirations and license creations by year later on.
 - We then copied the modified data to a new sheet called `Deduped` and sorted it by expiration year, in reverse chronological order. The data contains multiple entries if the same business has renewed its license multiple times. We then erased entries that contained the same business name except for the latest instance, leaving us with just the latest license registered by a business. These entries also help determine whether an older business with multiple licenses over time, is still open or not.
 
 
 ##### Part 2: Filtering Data
-- We wanted to see which zip codes had more than a 50% increase in inactive licenses during the pandemic. To achieve this goal we summarized the data using a pivot table by zip code with subcategories that included the expiration year and whether the license status was active or inactive. This was done with a percent change formula between 2018-2019 and 2020-2021. An IF statement told us which zip code fit the criteria with the label of “1”.
+- We wanted to see which zip codes had more than a 50% increase in inactive licenses during the pandemic. To achieve this goal we summarized the data using a pivot table by zip code with subcategories that included the expiration year and whether the license status was active or inactive. This was done with a percent change formula between 2018-2019 and 2020-2021. Using an `IF` statement we labeled any zip code that fit the criteria with a `1`.
 
 
 #### Pre-Foreclosures and Foreclosures Data
@@ -59,19 +59,11 @@ Downloading and compiling the data from [Property Shark](https://www.propertysha
   - New York City Auction Results
   - New York City Bank Owned (REO)
 
-Property Shark also includes a number of different types of buildings. For this project, we searched for the category of `Store Buildings` which is at the bottom of a blue menu on the left-hand side of the screen.
+Property Shark also includes a number of different types of buildings. For this project, we searched for the category of `Store Buildings` limiting the search first to `New York City Foreclosures` and then to `New York City Pre-Foreclosures` during a second search.
 
-Then after searching for `Store Buildings`, we had to limit our search to one of the four foreclosure categories listed above. We started with `New York City Foreclosures`. For foreclosures, there is a gap in information because of Covid-19.  From May of 2020 to September 2021 there are no foreclosures due to the COVID-19 crisis. The error message read as “Due to the ongoing health emergency, foreclosure auctions have been temporarily suspended.”
+There is a limit of 100 items per Excel spreadsheet downloads on Property Shark and each month had to be downloaded separately. Spreadsheets that contain 100 items or more are sent to a user's email address.
 
-We were able to get two foreclosures for this month, October 2021 and from April 2020 bank through October 2018. To find each month, there is a pull down menu at the top of the blue menu on the left hand side of the page. The months are listed under the topic - Show.  
-
-To get the data for each month, you have to select `Export to Excel` after selecting for the month, type of building and category.  Each month had only a handful of buildings, so we copied each small Excel spreadsheet for each month and compiled one large spreadsheet on google sheets of the entire data set.
-
-We then repeated this process for the next category - `New York City Pre-Foreclosures`. We selected for Store Building again. There is a limit of 100 items per Excel spreadsheet downloads on Property Shark and each month had to be downloaded separately. Spreadsheets that contain 100 items or more are sent to a user's email address.
-
-We copied the information from each small sheet and pasted it along with the other months on one single Google Sheet. We were able to get pre-foreclosures from Sept. 2021 to Oct. 2018. We then repeated this exact process for the final two categories: New York City Auction Results and New York City Bank Owned (REO). Our search yielded no results.
-
-When we were finished, we had two sets of raw data. The two lists were not formatted in the same way, so combining them would be difficult. All told these two spreadsheets were really made up of about 50 small Excel spreadsheets that were copied and pasted together by category.  
+We copied the information from each small sheet and pasted it along with the other months on one single spreadsheet. When we were finished, we had two sets of raw data. (Note: From May of 2020 to September 2021 there are no foreclosures due to the COVID-19 crisis and only two foreclosures for November 2021, October 2021 and from April 2020 through October 2018.)
 
 
 ##### Part 2: Cleaning Data
