@@ -118,7 +118,7 @@ The [`output data`](https://github.com/reneeonque/gentrification-data/tree/main/
 
 ## Analysis 2 (Referred to in the article)
 
-Once we decided as a group that we wanted to focus on zip code, 11216 which is Bedford-Stuyvesant in Brooklyn, NY, we filtered the data to look at the inactive businesses within the zip code and the top four landlords with the most properties in the neighborhood.
+Once we decided as a group that we wanted to focus on zip code 11216, which is Bedford-Stuyvesant in Brooklyn, NY, we filtered the data to look at the inactive businesses within the zip code and the top four landlords with the most properties in the neighborhood.
 
 ## Data
 
