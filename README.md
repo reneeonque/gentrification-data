@@ -175,7 +175,7 @@ All of the filtering can be found within this [`jupyter notebook`](https://githu
 - When trying to set the zip code equal to 11216, the new dataset wasn't appearing in Python. 
   - To solve this issue: We exported the dataset to a CSV. Once it was imported, the zip code was appearing as a decimal and being interpreted as a float by Python. The zip code was then turned into a string and the ".0" was dropped.
 - After this, we grabbed the same columns from before for the analysis.
-- Lastly, we filtered the zip code to the 11216.
+- Lastly, we filtered the zip code to 11216.
 - These steps were repeated for each of the four landlords.
 - The last step was to combine the four datasets into one large dataset.
 
