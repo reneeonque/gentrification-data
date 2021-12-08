@@ -4,7 +4,7 @@ This repository contains data, analytic code, and findings that were collected b
 
 The second repository contains data obtained from [PropertyShark](https://www.propertyshark.com/mason/), which requires membership in order to utilize. The data consists of foreclosure and pre-foreclosure data stretching back to October 2018.
 
-The third repository uses what we learned from the first two to take a deeper look at small businesses in the zip code 11216.
+The third repository uses data from the DCA and PropertyShark and applies what we learned from the first two repositories to take a deeper look at small businesses in the zip code 11216.
 
 ## Analysis 1
 
