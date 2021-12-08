@@ -106,7 +106,7 @@ The output of the filtered spreadsheet which contains an analyzed tab, a deduped
 
 #### Foreclosure Data
 
-The [`output data`](https://github.com/reneeonque/gentrification-data/tree/main/output) of the filtered spreadsheet: `Property Shark - Pre-Foreclosure STORES.xlsx` and `Property Shark - Foreclosure STORES.xlsx`.
+The [`output data`](https://github.com/reneeonque/gentrification-data/tree/main/output) of the filtered spreadsheet: `Filtered Property Shark - Pre-Foreclosure STORES.xlsx` and `Filtered Property Shark - Foreclosure STORES.xlsx`.
 
 - The zip codes with the highest amount of pre-foreclosures are 11412, 11206, and 11432. These are the neighborhoods of St. Albans, Bushwick, and Jamaica.
 - St. Albans pops up in the top 5 for the years 2018, 2019, and 2020. Peak pre-foreclosures happened during the pandemic in 2020 and 2021. The neighborhood 11214 (Bensonhurst) appears in the 2020 data top 10.
