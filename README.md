@@ -2,7 +2,7 @@
 
 This repository contains data, analytic code, and findings that were collected by [The New York City Consumer and Worker Protection](https://data.cityofnewyork.us/Business/Legally-Operating-Businesses/w7w3-xahh) and is available via Open Data which is updated every day. Please filter this dataset using the methodology below, which contains important context and details, before proceeding.
 
-The second repository contains data obtained from [Property Shark](https://www.propertyshark.com/mason/), which requires membership in order to utilize. The data consists of foreclosure and pre-foreclosure data stretching back to October 2018.
+The second repository contains data obtained from [PropertyShark](https://www.propertyshark.com/mason/), which requires membership in order to utilize. The data consists of foreclosure and pre-foreclosure data stretching back to October 2018.
 
 ## Analysis 1
 
