@@ -154,8 +154,7 @@ All of the filtering can be found within this [`jupyter notebook`](https://githu
 - In order to compare this data to the foreclosure data, we dropped all dates from before 2018.
 - We went on to search for the highest counts of inactive licenses by zip code by filtering.
 - To determine turnover, we found addresses with unique business owners based on "Address Building," "Address Street Name" and "Address ZIP."
-- After this, we were able to determine that zip code 11216 has both one of the highest counts of inactive licenses in our date range, but also an address with four different business owners in the past four years.
-- Once this was clear, we filtered the data to just 11216.
+- We ended by filtering the data to just 11216.
 
 ##### Exporting Data
 
@@ -187,6 +186,8 @@ All of the filtering can be found within this [`jupyter notebook`](https://githu
 #### Licensing Data
 
 The output of the filtered CSV that focuses on inactive licenses in zip code 11216 from 2018 to 2021: [`DCA_License_11216.csv`](https://github.com/reneeonque/gentrification-data/tree/main/output).
+
+- After this, we were able to determine that zip code 11216 has both one of the highest counts of inactive licenses in our date range, but also an address with four different business owners in the past four years.
 
 #### Foreclosure Data
 
