@@ -4,6 +4,8 @@ This repository contains data, analytic code, and findings that were collected b
 
 The second repository contains data obtained from [Property Shark](https://www.propertyshark.com/mason/), which requires membership in order to utilize. The data consists of foreclosure and pre-foreclosure data stretching back to October 2018.
 
+## Initial Data Analysis
+
 ## Data
 
 This [`raw data`](https://github.com/reneeonque/gentrification-data/tree/main/data) for this analysis uses active and inactive licensing data, as well as pre-foreclosure and foreclosure records, from 2018 to 2021.
@@ -110,6 +112,9 @@ The [`output data`](https://github.com/reneeonque/gentrification-data/tree/main/
 - St. Albans pops up in the top 5 for the years 2018, 2019, and 2020. Peak pre-foreclosures happened during the pandemic in 2020 and 2021. The neighborhood 11214 (Bensonhurst) appears in the 2020 data top 10.
 - Top neighborhoods that experienced a 50% increase in pre-foreclosures for stores between 2019 and 2020 are 10012, 10314, 11214,and 11433. These are the neighborhoods of SOHO, Casteton Corners, Bensonhurst, and Jamaica.
 - Top neighborhoods that experienced a 50% increase in pre-foreclosures for stores between 2020 and 2021 are 11412, 11434, 10075, and 11354. These are the neighborhoods of St. Albans, Jamaica, Yorkville, and Flushing.
+
+
+## Data Analysis Used in Final Article
 
 ## Licensing
 
