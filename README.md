@@ -125,9 +125,11 @@ We used both the DCA and the PropertyShark data for this section in CSV format:
 The [`raw and filtered data`](https://github.com/reneeonque/gentrification-data/tree/main/data) for this analysis uses active and inactive licensing data, as well as pre-foreclosure and foreclosure records, from 2018 to 2021.
 
 - The New York City Consumer and Worker Protection:
+- 
   - `DCA_Legally_Operating_Businesses_08092021.csv`: Raw data of active and inactive licenses
 
 - Property Shark –– The PropertyShark data in this section is a condensed version of the initial dataset from Analysis 1. Each CSV includes the properties that a specific landlord owns in New York City.
+- 
   - `Shulem Herman - Sheet1.csv`: Filtered data of all NYC properties owned by Shulem Herman
   - `Larry Hirschfield - Sheet1.csv`: Filtered data of all NYC properties owned by Larry Hirschfield
   - `Richard Christopher Bramwell Jr. - Sheet1.csv`: Filtered data of all NYC properties owned by Richard Christopher Bramwell Jr.
@@ -159,7 +161,36 @@ All of the filtering can be found within this [`jupyter notebook`](https://githu
 
 - Finally, we exported the data as a CSV.
 
-#### Filtering PropertyShark data to focus on inactive licenses for each of the top four landlords with the most properties in 11216
+#### Filtering PropertyShark data to focus on all NYC properties owned by each of the top four landlords with the most properties in 11216
+
+##### Importing Data
+
+- We first imported the CSV.
+
+##### Filtering Data
+
+- We first separated the addresses by multiple columns to isolate the zip code.
+- We then grabbed the columns that were necessary for analysis: "Street," "City," "State," "Zip Code," "Landlord," "Role," "Property Class," "Square feet," "Sale date," "Sale price," and "Total debt."
+- When trying to set the zip code equal to 11216, the new dataset wasn't appearing in Python. 
+  - To solve this issue: We exported the dataset to a CSV. Once it was imported, the zip code was appearing as a decimal and being interpreted as a float by the Python. The zip code was then turned into a string and the ".0" was dropped.
+- After this, we grabbed the same columns from before for the analysis.
+- Lastly, we filtered the zip code to the 11216.
+- These steps were repeated for each of the four landlords.
+- The last step was to combine the four datasets into one large dataset.
+
+##### Exporting Data
+
+- Finally, we exported the data as a CSV.
+
+## Findings
+
+#### Licensing Data
+
+The output of the filtered CSV that focuses on inactive licenses in zip code 11216 from 2018 to 2021: [`DCA_License_11216.csv`](https://github.com/reneeonque/gentrification-data/tree/main/output).
+
+#### Foreclosure Data
+
+The output of the filtered CSV that focuses on inactive licenses in zip code 11216 from 2018 to 2021: [`MegaLandlords_11216.csv`](https://github.com/reneeonque/gentrification-data/tree/main/output). 
 
 ## Licensing
 
