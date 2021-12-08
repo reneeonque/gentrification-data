@@ -4,7 +4,7 @@ This repository contains data, analytic code, and findings that were collected b
 
 The second repository contains data obtained from [Property Shark](https://www.propertyshark.com/mason/), which requires membership in order to utilize. The data consists of foreclosure and pre-foreclosure data stretching back to October 2018.
 
-## Initial Data Analysis
+## Analysis 1
 
 ## Data
 
@@ -114,7 +114,52 @@ The [`output data`](https://github.com/reneeonque/gentrification-data/tree/main/
 - Top neighborhoods that experienced a 50% increase in pre-foreclosures for stores between 2020 and 2021 are 11412, 11434, 10075, and 11354. These are the neighborhoods of St. Albans, Jamaica, Yorkville, and Flushing.
 
 
-## Data Analysis Used in Final Article
+## Analysis 2 (Referred to in the article)
+
+Once we decided as a group that we wanted to focus on zip code, 11216 which is Bedford-Stuyvesant in Brooklyn, NY, we filtered the data to look at the inactive businesses within the zip code and the top four landlords with the most properties in the neighborhood.
+
+## Data
+
+We used both the DCA and the PropertyShark data for this section in CSV format:
+
+The [`raw and filtered data`](https://github.com/reneeonque/gentrification-data/tree/main/data) for this analysis uses active and inactive licensing data, as well as pre-foreclosure and foreclosure records, from 2018 to 2021.
+
+- The New York City Consumer and Worker Protection:
+  - `DCA_Legally_Operating_Businesses_08092021.csv`: Raw data of active and inactive licenses
+
+- Property Shark –– The PropertyShark data in this section is a condensed version of the initial dataset from Analysis 1. Each CSV includes the properties that a specific landlord owns in New York City.
+  - `Shulem Herman - Sheet1.csv`: Filtered data of all NYC properties owned by Shulem Herman
+  - `Larry Hirschfield - Sheet1.csv`: Filtered data of all NYC properties owned by Larry Hirschfield
+  - `Richard Christopher Bramwell Jr. - Sheet1.csv`: Filtered data of all NYC properties owned by Richard Christopher Bramwell Jr.
+  - `Yehuda Cohen - Sheet1.csv`: Filtered data of all NYC properties owned by Yehuda Cohen
+
+## Methodology
+
+All of the filtering can be found within this [`jupyter notebook`](https://github.com/reneeonque/gentrification-data/tree/main/notebooks).
+
+#### Filtering DCA data to focus on inactive licenses in 11216
+
+##### Importing Data
+
+- We first imported the CSV.
+
+##### Filtering Data
+
+- We then changed the license expiration dates from objects to dates using the datetime function.
+- After making this change, we sorted the dataset by expiration date in ascending order.
+- We made the date time change permanent so that it would reflect in the dataset moving forward.
+- We then dropped duplicate business names in order to make sure businesses were only being counted once. This way, active businesses would only be counted as active once, and inactive businesses would only be counted as inactive once.
+- In order to compare this data to the foreclosure data, we dropped all dates from before 2018.
+- We went on to search for the highest counts of inactive licenses by zip code by filtering.
+- To determine turnover, we found addresses with unique business owners based on "Address Building," "Address Street Name" and "Address ZIP."
+- After this, we were able to determine that zip code 11216 has both one of the highest counts of inactive licenses in our date range, but also an address with four different business owners in the past four years.
+- Once this was clear, we filtered the data to just 11216.
+
+##### Exporting Data
+
+- Finally, we exported the data as a CSV.
+
+#### Filtering PropertyShark data to focus on inactive licenses for each of the top four landlords with the most properties in 11216
 
 ## Licensing
 
