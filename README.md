@@ -195,6 +195,11 @@ The output of the filtered CSV that focuses on inactive licenses in zip code 112
 
 The output of the filtered CSV that focuses on inactive licenses in zip code 11216 from 2018 to 2021: [`MegaLandlords_11216.csv`](https://github.com/reneeonque/gentrification-data/tree/main/output). 
 
+- Out of the top four property owners that we found in zip code 11216, there were a total of 373 properties owned in NYC. 77% of those properties carried excessive debt.
+- Out of the 164 vacant storefronts we surveyed, 57 of them were owned by landlords who owned three or more buildings, which is 35%.
+- Shulem Herman is the landlord of the bookstore, as mentioned in the story, that was turned into a coffee shop and now a bar. Out of the 89 properties he owned, 88% (87.6%) had excessive debt.
+- The building that contained The Black Lady Theatre was purchased on February 25, 2019 for $3,540,000 by Mendel Gold. The current debt on the building is already $5,800,000.
+
 ## Licensing
 
 All code in this repository is available under the [MIT License](https://opensource.org/licenses/MIT). The data file in the output/ directory is available under the [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/) (CC BY 4.0) license. All files in the data/ directory are released into the public domain.
